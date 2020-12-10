@@ -171,19 +171,19 @@
     loop: true,
     items: 1
   });
-
-  // Init AOS
-  function aos_init() {
-    aos_init.init({
-      
-     /* easing: "ease-in-out-back",*/
-       delay:"0",
-	    duration:"1000",
-    });
-  }
-  $(window).on('load', function() {
-    aos_init();
-  });
+//
+//  // Init AOS
+//  function aos_init() {
+//    aos_init.init({
+//      
+//     /* easing: "ease-in-out-back",*/
+//       delay:"0",
+//	    duration:"1000",
+//    });
+//  }
+//  $(window).on('load', function() {
+//    aos_init();
+//  });
 
 })(jQuery);// JavaScript Document
 
