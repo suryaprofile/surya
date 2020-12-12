@@ -405,7 +405,7 @@ Main Components
         height: 100vh;
         background: url("img/surya/b2.jpg")top center;
         background-size: cover;
-        background-position: -1030px;
+        background-position: -950px;
     }
     #hero .hero-container {
         position: relative;
@@ -451,7 +451,7 @@ Main Components
         height: 100vh;
         background: url("img/surya/b2.jpg") top center;
         background-size: cover;
-        background-position: -1030px;
+        background-position: -950px;
     }
     #hero .hero-container {
         position: relative;
