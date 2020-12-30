@@ -468,7 +468,7 @@ Main Components
 --------------------------------------------------------*/
 #start {
     text-align: center;
-    padding: 0;
+    padding: 0 !important;
 }
 #start a {
     color: #fff !important;
