@@ -455,72 +455,14 @@ Main Components
         color: #000 !important;
         position: absolute;
         bottom: 2%;
-        font-size: 50px;
+        font-size: 20px;
         z-index: 999;
     }
     #hero .btm a {
         color: #000;
     }
 }
-@media (max-width: 576px) {
-    #hero .cd-background-wrapper {
-        display: none;
-    }
-    #hero {
-        width: 100%;
-        height: 100vh;
-        background: url("img/surya/b2.jpg") top center;
-        background-size: cover;
-        background-position: -950px;
-    }
-    #hero .hero-container {
-        position: relative;
-        z-index: 2;
-        min-width: 300px;
-        top: 182px;
-        left: 42px;
-        color: #000 !important;
-    }
-    #hero h1 {
-        font-size: 28px;
-        line-height: 36px;
-        color: #000 !important;
-    }
-    #hero h2 {
-        font-size: 18px;
-        line-height: 24px;
-        margin-bottom: 30px;
-        color: #000 !important;
-    }
-    #hero p span.typed {}
-    #hero p {
-        color: #fff;
-        margin-bottom: 50px;
-        font-size: 18px;
-        color: #000 !important;
-    }
-    #hero .btm {
-        color: #000 !important;
-        position: absolute;
-        bottom: 2%;
-        font-size: 50px;
-        z-index: 999;
-    }
-    #hero .btm a {
-        color: #000;
-    }
->>>>>>> a4510f634f8664c146cc1132d0cb84d524654002
-}
-#hero p span {
-	color: #fff;
-	padding-bottom: 4px;
-	letter-spacing: 1px;
-	border-bottom: 3px solid #149ddd;
-}
-#hero .btm {	
-	font-size: 20px;
-	}
-	}
+
 
 /*= EFFECTS
 --------------------------------------------------------*/
