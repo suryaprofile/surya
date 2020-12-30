@@ -360,7 +360,7 @@ Main Components
     min-width: 300px;
     top: 50%;
     left: 23%;
-	text-align: center;
+	text-align: center !important;
 }
 #hero h1 {
     margin: 0 0 10px 0;
