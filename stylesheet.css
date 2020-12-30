@@ -370,7 +370,7 @@ Main Components
 }
 #hero p {
     color: #fff;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 26px;
 }
 #hero p span {
@@ -380,9 +380,7 @@ Main Components
     border-bottom: 3px solid #149ddd;
 }
 #hero .btm {
-    color: #000 !important;
-    position: absolute;
-    bottom: 0%;
+    color: #fff !important;
     font-size: 50px;
     z-index: 999;
 }
