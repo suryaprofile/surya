@@ -361,7 +361,7 @@ Main Components
     top: 0%;
     left: 23%;
 	text-align: center !important;
-	padding: 100px 0 0 0
+	padding: 450px 0 0 0;
 }
 #hero h1 {
     margin: 0 0 10px 0;
@@ -400,7 +400,7 @@ Main Components
 	position: absolute;
 	z-index: 1000;
 	min-width: 300px;
-	top:8%;
+	padding: 50px 0 0 0;
 	left:1%;
 	text-align: left !important;
 }
