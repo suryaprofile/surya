@@ -317,8 +317,8 @@ Main Components
 }
 #hero .cd-floating-background {
     position: relative;
-    top: 0;
-    left: 0;
+    top: 0 !important;
+    left: 0 !important;
     right: 0;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -361,7 +361,7 @@ Main Components
     top: 0%;
     left: 23%;
 	text-align: center !important;
-	padding: 450px 0 0 0;
+	padding: 400px 0 0 0;
 }
 #hero h1 {
     margin: 0 0 10px 0;
