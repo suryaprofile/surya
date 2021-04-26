@@ -385,9 +385,11 @@ Main Components
     color: #fff !important;
     font-size: 50px;
     z-index: 999;
+	 transition: all 0.4s;
 }
 #hero .btm a {
     color: #fff;
+	 transition: all 0.4s;
 }
 @media (min-width: 1024px) {
     #hero {
