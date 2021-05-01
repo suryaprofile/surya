@@ -1,423 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
-@media (max-width: 300px) {
-    body {
-        font-size: 16px !important;
-    }
-    #hero .hero-container {
-        position: absolute !important;
-        /*	min-width: 300px !important;*/
-        padding: 10px 0 0 0 !important;
-        left: 4% !important;
-        text-align: left !important;
-    }
-    #hero h1 {
-        font-size: 20px !important;
-        line-height: 22px !important;
-    }
-    #hero p {
-        margin-bottom: 10px !important;
-        font-size: 12px !important;
-    }
-    #hero .btm {
-        font-size: 18px !important;
-    }
-    section#hero {
-        padding: 0px 0 !important;
-    }
-    section {
-        padding: 20px 0 !important;
-    }
-    .section-title h2 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-    }
-    .section-title h2:after {
-        padding: 0px 0 10px 0 !important;
-    }
-    .section-title {
-        padding-bottom: 10px !important;
-    }
-    .about .content p:last-child {
-        margin-bottom: 10px !important;
-    }
-    .about .content h3 {
-        padding-top: 15px !important;
-        font-size: 24px !important;
-        margin-bottom: 0 !important
-    }
-    .resume .resume-title {
-        font-size: 20px !important;
-        font-weight: 600 !important;
-    }
-    .contact .info {
-        height: auto !important;
-    }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 360px) { 
+
+
+
+
 }
-@media (min-width: 301px) and (max-width: 360px) {
-    body {
-        font-size: 16px !important;
-    }
-    #hero .hero-container {
-        position: absolute !important;
-        /*	min-width: 300px !important;*/
-        padding: 30px 0 0 0 !important;
-        left: 4% !important;
-        text-align: left !important;
-    }
-    #hero h1 {
-        font-size: 24px !important;
-        line-height: 26px !important;
-    }
-    #hero p {
-        margin-bottom: 10px !important;
-        font-size: 14px !important;
-    }
-    #hero .btm {
-        font-size: 18px !important;
-    }
-    section#hero {
-        padding: 0px 0 !important;
-    }
-    section {
-        padding: 20px 0 !important;
-    }
-    .section-title h2 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-    }
-    .section-title h2:after {
-        padding: 0px 0 10px 0 !important;
-    }
-    .section-title {
-        padding-bottom: 10px !important;
-    }
-    .about .content p:last-child {
-        margin-bottom: 10px !important;
-    }
-    .about .content h3 {
-        padding-top: 15px !important;
-        font-size: 24px !important;
-        margin-bottom: 0 !important
-    }
-    .resume .resume-title {
-        font-size: 20px !important;
-        font-weight: 600 !important;
-    }
-    .contact .info {
-        height: auto !important;
-    }
-}
-@media (min-width: 361px) and (max-width: 575.98px) {
-    body {
-        font-size: 16px !important;
-    }
-    #hero .hero-container {
-        position: absolute !important;
-        /*	min-width: 300px !important;*/
-        padding: 50px 0 0 0 !important;
-        left: 4% !important;
-        text-align: left !important;
-    }
-    #hero h1 {
-        font-size: 24px !important;
-        line-height: 26px !important;
-    }
-    #hero p {
-        margin-bottom: 10px !important;
-        font-size: 14px !important;
-    }
-    #hero .btm {
-        font-size: 18px !important;
-    }
-    section#hero {
-        padding: 0px 0 !important;
-    }
-    section {
-        padding: 20px 0 !important;
-    }
-    .section-title h2 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-    }
-    .section-title h2:after {
-        padding: 0px 0 10px 0 !important;
-    }
-    .section-title {
-        padding-bottom: 10px !important;
-    }
-    .about .content p:last-child {
-        margin-bottom: 10px !important;
-    }
-    .about .content h3 {
-        padding-top: 15px !important;
-        font-size: 24px !important;
-        margin-bottom: 0 !important
-    }
-    .resume .resume-title {
-        font-size: 20px !important;
-        font-weight: 600 !important;
-    }
-    .contact .info {
-        height: auto !important;
-    }
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-    body {
-        font-size: 16px !important;
-    }
-    #hero .hero-container {
-        position: absolute !important;
-        padding: 80px 0 0 0 !important;
-        left: 4% !important;
-        text-align: left !important;
-    }
-    #hero h1 {
-        font-size: 26px !important;
-        line-height: 26px !important;
-    }
-    #hero p {
-        margin-bottom: 10px !important;
-        font-size: 18px !important;
-    }
-    #hero .btm {
-        font-size: 18px !important;
-    }
-    section#hero {
-        padding: 0px 0 !important;
-    }
-    section {
-        padding: 20px 0 !important;
-    }
-    .section-title h2 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-    }
-    .section-title h2:after {
-        padding: 0px 0 10px 0 !important;
-    }
-    .section-title {
-        padding-bottom: 10px !important;
-    }
-    .about .content p:last-child {
-        margin-bottom: 10px !important;
-    }
-    .about .content h3 {
-        padding-top: 15px !important;
-        font-size: 24px !important;
-        margin-bottom: 0 !important
-    }
-    .resume .resume-title {
-        font-size: 20px !important;
-        font-weight: 600 !important;
-    }
-    .contact .info {
-        height: auto !important;
-    }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-    body {
-        font-size: 16px !important;
-    }
-    #hero .hero-container {
-        position: absolute !important;
-        padding: 150px 0 0 0 !important;
-        left: 10% !important;
-        text-align: left !important;
-    }
-    #hero h1 {
-        font-size: 40px !important;
-        line-height: 46px !important;
-    }
-    #hero p {
-        margin-bottom: 10px !important;
-        font-size: 18px !important;
-    }
-    #hero .btm {
-        font-size: 18px !important;
-    }
-    section#hero {
-        padding: 0px 0 !important;
-    }
-    section {
-        padding: 20px 0 !important;
-    }
-    .section-title h2 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-    }
-    .section-title h2:after {
-        padding: 0px 0 10px 0 !important;
-    }
-    .section-title {
-        padding-bottom: 10px !important;
-    }
-    .about .content p:last-child {
-        margin-bottom: 10px !important;
-    }
-    .about .content h3 {
-        padding-top: 15px !important;
-        font-size: 24px !important;
-        margin-bottom: 0 !important
-    }
-    .resume .resume-title {
-        font-size: 20px !important;
-        font-weight: 600 !important;
-    }
-    .contact .info {
-        height: auto !important;
-    }
-    .about .content ul li {
-        text-align: left;
-    }
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    body {
-        font-size: 16px !important;
-    }
-    #hero .hero-container {
-        position: absolute !important;
-        padding: 200px 0 0 0 !important;
-        left: 10% !important;
-        text-align: left !important;
-    }
-    #hero h1 {
-        font-size: 40px !important;
-        line-height: 46px !important;
-    }
-    #hero p {
-        margin-bottom: 10px !important;
-        font-size: 20px !important;
-    }
-    #hero .btm {
-        font-size: 18px !important;
-    }
-    section#hero {
-        padding: 0px 0 !important;
-    }
-    section {
-        padding: 20px 0 !important;
-    }
-    .section-title h2 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-    }
-    .section-title h2:after {
-        padding: 0px 0 10px 0 !important;
-    }
-    .section-title {
-        padding-bottom: 10px !important;
-    }
-    .about .content p:last-child {
-        margin-bottom: 10px !important;
-    }
-    .about .content h3 {
-        padding-top: 15px !important;
-        font-size: 24px !important;
-        margin-bottom: 0 !important
-    }
-    .resume .resume-title {
-        font-size: 20px !important;
-        font-weight: 600 !important;
-    }
-    .contact .info {
-        height: auto !important;
-    }
-}
-@media (min-width: 1200px) and (max-width: 1440px) {
-    body {
-        font-size: 16px !important;
-    }
-    #hero .hero-container {
-        position: absolute !important;
-        padding: 270px 0 0 0 !important;
-        left: 30% !important;
-        text-align: left !important;
-    }
-    #hero h1 {
-        font-size: 40px !important;
-        line-height: 46px !important;
-    }
-    #hero p {
-        margin-bottom: 10px !important;
-        font-size: 20px !important;
-    }
-    #hero .btm {
-        font-size: 30px !important;
-    }
-    section#hero {
-        padding: 0px 0 !important;
-    }
-    section {
-        padding: 20px 0 !important;
-    }
-    .section-title h2 {
-        font-size: 24px !important;
-        margin-bottom: 0px !important;
-    }
-    .section-title h2:after {
-        padding: 0px 0 10px 0 !important;
-    }
-    .section-title {
-        padding-bottom: 10px !important;
-    }
-    .about .content p:last-child {
-        margin-bottom: 10px !important;
-    }
-    .about .content h3 {
-        padding-top: 15px !important;
-        font-size: 24px !important;
-        margin-bottom: 0 !important
-    }
-    .resume .resume-title {
-        font-size: 20px !important;
-        font-weight: 600 !important;
-    }
-}
-@media (min-width: 1920px) {
-    body {
-        font-size: 18px !important;
-    }
-    #hero .hero-container {
-        position: absolute !important;
-        padding: 450px 0 0 0 !important;
-        left: 30% !important;
-        text-align: left !important;
-    }
-    section#hero {
-        padding: 0px 0 !important;
-    }
-    .section-title h2 {
-        font-size: 30px !important;
-        margin-bottom: 0px !important;
-    }
-    .section-title h2:after {
-        padding: 0px 0 10px 0 !important;
-    }
-    .section-title {
-        padding-bottom: 10px !important;
-    }
-    .about .content p:last-child {
-        margin-bottom: 10px !important;
-    }
-    .about .content h3 {
-        padding-top: 15px !important;
-        font-size: 24px !important;
-        margin-bottom: 0 !important
-    }
-    .resume .resume-title {
-        font-size: 20px !important;
-        font-weight: 600 !important;
-    }
-    .resume .resume-item p {
-        font-size: 18px !important;
-        color: #141e55;
-    }
-    .resume .resume-item ul {
-        padding-left: 20px;
-        font-size: 18px !important;
-    }
-}
+
+@media (min-width: 361px) and (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (max-width: 1440px) { ... }
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -425,7 +31,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.011111111111111112rem;
-    font-size: 18px;
+    font-size: 16px;
 }
 a {
     color: #141e55;
@@ -438,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif !important;
 }
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -554,6 +161,15 @@ section {
 }
 .nav-menu li:nth-child(6):before {
     background-color: rgb(240, 96, 35) !important;
+}
+/*.nav-menu li:nth-child(7):before {
+ background-color:
+}*/
+.nav-menu li:nth-child(8):before {
+    background-color: #2d2366;
+}
+.nav-menu li:nth-child(9):before {
+    background-color: #35acdf;
 }
 .nav-menu li:hover:before {
     width: 100% !important;
@@ -750,11 +366,11 @@ Main Components
 #hero .hero-container {
     position: absolute;
     z-index: 1000;
-    /*    min-width: 300px;*/
+    min-width: 300px;
     top: 0%;
     left: 23%;
-    text-align: center;
-    padding: 400px 0 0 0;
+	text-align: center !important;
+	padding: 250px 0 0 0;
 }
 #hero h1 {
     margin: 0 0 10px 0;
@@ -778,17 +394,208 @@ Main Components
     color: #fff !important;
     font-size: 50px;
     z-index: 999;
-    transition: all 0.4s;
+	 transition: all 0.4s;
 }
 #hero .btm a {
     color: #fff;
-    transition: all 0.4s;
+	 transition: all 0.4s;
 }
 @media (min-width: 1024px) {
     #hero {
         background-attachment: fixed;
     }
 }
+@media (max-width: 768px) {
+
+#hero .hero-container {
+	position: absolute;
+	z-index: 1000;
+	min-width: 300px;
+	padding: 50px 0 0 0;
+	left:1%;
+	text-align: left !important;
+}
+	#hero h1 {	
+	font-size: 24px;
+	line-height: 26px;	
+}
+#hero p {
+	 margin-bottom: 10px;
+	font-size: 14px;
+}
+#hero .btm {
+	font-size: 18px;
+}
+}
+
+
+/*= EFFECTS
+--------------------------------------------------------*/
+/*
+#start {
+    text-align: center;
+    padding: 0 !important;
+}
+#start a {
+    color: #fff !important;
+}
+#start .bg2 {
+    background: url(img/work/effect-bg.jpg) no-repeat center center;
+}
+#start .inner {
+    width: 100%;
+}
+#start .white {
+    width: 100%;
+    height: 800px;
+    color: #141e55 !important;
+}
+#start .dark {
+    width: 100%;
+    height: 800px;
+    color: #fff !important;
+}
+#start .dark .inner h2, h5 {
+    color: #fff;
+    font-weight: bold;
+}
+#start .white .inner h2 {
+    color: #141e55 !important;
+    font-weight: bold;
+}
+#start .white .inner h5 {
+    color: #141e55 !important;
+    font-weight: bold;
+}
+#start .img {
+    width: 60%;
+    height: 20%;
+    border: 10px solid #141e55;
+    border-radius: 15px !important;
+    overflow: hidden;
+    padding: 40px 0 100px 0;
+    margin-top: 250px;
+    color: #141e55;
+    font-weight: bold;
+}
+#start .img-blk {
+    width: 60%;
+    height: 20%;
+    border: 10px solid #efeee5;
+    -webkit-border-radius: 15px !important;
+    border-radius: 15px !important;
+    overflow: hidden;
+    padding: 40px 0 100px 0;
+    margin-top: 250px;
+    margin-left: auto;
+    color: #fff !important;
+    font-weight: bold !important;
+}
+#start .img:hover {
+    cursor: pointer;
+}
+#start .morph {
+    -webkit-transition: all 0.2s ease !important;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 0.2s ease !important;
+}
+#start .white:hover .morph {
+    width: 60%;
+    height: 35%;
+    padding: 100px 0 20px 0;
+    border-radius: 50% !important;
+}
+#start .dark:hover .morph {
+    width: 60%;
+    height: 35%;
+    padding: 100px 0 20px 0;
+    border-radius: 50% !important;
+}
+@media (max-width: 1680px) and (min-width: 1199px) {
+    .cd-floating-background {
+        width: auto !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    #start .bg2 {
+        background: url("") no-repeat center center;
+    }
+    #start .inner {
+        width: 100%;
+    }
+    #start .white .inner h2 {
+        color: #141e55;
+        font-weight: bold;
+    }
+    #start .white {
+        background: #efeee5;
+        height: auto;
+        width: 100%;
+    }
+    #start .img {
+        width: 60%;
+        height: 20%;
+        border: 10px solid #141e55;
+        -webkit-border-radius: 15px !important;
+        border-radius: 15px !important;
+        overflow: hidden;
+        padding: 40px 0 140px 0px;
+        margin: auto;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    #start .white:hover .morph {
+        width: 60%;
+        height: auto;
+        padding: 50px 0 20px 0;
+        margin-bottom: 50px;
+        border-radius: 50% !important;
+    }
+    #start .dark {
+        height: auto;
+        width: 100%;
+        background: #141e55;
+        color: #fff !important;
+    }
+    #start .dark .inner h2 {
+        color: #fff;
+        font-weight: bold;
+    }
+    #start .img-blk {
+        width: 60%;
+        height: 20%;
+        border: 10px solid #efeee5;
+        -webkit-border-radius: 15px !important;
+        border-radius: 15px !important;
+        overflow: hidden;
+        padding: 40px 0 140px 0;
+        margin: auto;
+        margin-left: auto;
+        margin-top: 70px;
+        color: #fff !important;
+    }
+    #start .img:hover {
+        cursor: pointer;
+    }
+    #start .morph {
+        -webkit-transition: all 0.2s ease !important;
+        -moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 0.2s ease !important;
+    }
+    #start .dark:hover .morph {
+        width: 60%;
+        height: auto;
+        padding: 50px 0 20px 0;
+        margin-bottom: 50px;
+        border-radius: 50% !important;
+    }
+}
+*/
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -820,12 +627,18 @@ Main Components
 .about .content p:last-child {
     margin-bottom: 0;
     text-align: justify !important;
-    line-height: 1.9
 }
 .about p {
     margin-bottom: 0;
+    line-height: 2;
+    font-weight: 400;
     color: #173b6c;
     text-align: justify;
+}
+@media (max-width: 768px) {
+    .about .content h3 {
+        padding-top: 30px;
+    }
 }
 /*--------------------------------------------------------------
 # Skills
@@ -889,13 +702,14 @@ Main Components
     display: inline-block;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #fff;
 }
 .resume .resume-item p {
+    font-size: 16px;
     color: #141e55;
 }
 .resume .resume-item ul {
     padding-left: 20px;
+    font-size: 16px;
 }
 .resume .resume-item ul li {
     padding-bottom: 10px;
@@ -1078,7 +892,6 @@ Main Components
     vertical-align: middle;
 }
 .portfolio h4 {
-    font-size: 20px;
     font-weight: 600;
     color: #173b6c;
 }
@@ -1088,14 +901,23 @@ Main Components
 .card .card-image {
     overflow: hidden;
     -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 .card .card-image img {
     -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
     transition: all 4s ease-in-out;
 }
 .card .card-image:hover img {
     -webkit-transform: scale(1.2) rotate(-7deg);
+    -moz-transform: scale(1.2) rotate(-7deg);
+    -ms-transform: scale(1.2) rotate(-7deg);
+    -o-transform: scale(1.2) rotate(-7deg);
     transform: scale(1.5) rotate(-7deg);
 }
 .card {
@@ -1106,14 +928,19 @@ Main Components
 .item card {
     margin: 0 10px !important;
 }
+@media (max-width: 768px) {
+    .portfolio .card {
+        margin: 0;
+    }
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .section-title p {
     line-height: 2;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 10px
 }
 .contact h6 {
     font-size: 16px;
@@ -1127,7 +954,6 @@ Main Components
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     height: 674px;
-    border-radius: 20px;
 }
 .contact .info i {
     font-size: 20px;
@@ -1191,7 +1017,6 @@ Main Components
     font-size: 18px;
     color: #141e55;
     height: 674px;
-    border-radius: 20px;
 }
 .contact .php-email-form .form-group {
     padding-bottom: 8px;
@@ -1217,7 +1042,6 @@ Main Components
     font-family: "Raleway", sans-serif !important;
     border-radius: 40px;
     font-weight: bold;
-    font-size: 14px
 }
 .contact .php-email-form button[type="submit"]:focus {
     outline: none;
@@ -1232,6 +1056,7 @@ Main Components
         height: auto;
     }
 }
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
