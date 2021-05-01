@@ -577,7 +577,7 @@ section {
     text-align-last: center;
     font-family: "Poppins", sans-serif;
 }
-#header .profile h1 a, #header .profile h1 a:hover {
+#header .profile h2 a, #header .profile h2 a:hover {
     color: #fff;
     text-decoration: none;
 }
@@ -1099,7 +1099,7 @@ Main Components
     transform: scale(1.5) rotate(-7deg);
 }
 .card {
-    /*  font-family: 'Roboto', sans-serif; */
+
     border: none;
     position: relative;
 }
