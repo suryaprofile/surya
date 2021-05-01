@@ -332,7 +332,7 @@
         position: absolute !important;
         padding: 270px 0 0 0 !important;
         left: 30% !important;
-        text-align: left !important;
+       
     }
     #hero h1 {
         font-size: 40px !important;
@@ -382,7 +382,7 @@
         position: absolute !important;
         padding: 450px 0 0 0 !important;
         left: 30% !important;
-        text-align: left !important;
+       
     }
     section#hero {
         padding: 0px 0 !important;
