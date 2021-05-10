@@ -79,6 +79,7 @@
   justify-content: flex-end;
   align-items: flex-start;
   padding: 20px;
+    cursor: pointer;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
