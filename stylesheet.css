@@ -63,7 +63,7 @@
 
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
-    border-radius: 20px;
+
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -121,7 +121,6 @@
 
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.2);
-    border-radius: 20px;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
