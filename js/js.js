@@ -164,7 +164,12 @@
             portfolioIsotope.isotope({
                 filter: $(this).data('filter')
             });
-            aos_init();
+             AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out'
+//      once: true,
+//      mirror: false
+    })
         });
 
         // Initiate venobox (lightbox feature used in portofilo)
