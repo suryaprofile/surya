@@ -1230,7 +1230,7 @@ Main Components
 }
 #hero .btm {
     color: #fff !important;
-    font-size: 50px;
+    font-size: 30px;
     z-index: 999;
     transition: all 0.4s;
 }
@@ -1348,7 +1348,8 @@ Main Components
     text-align: justify;
 }
 .about_img {
- border-radius: 20px
+ border-radius: 20px;
+ box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.2);
 }
 /*--------------------------------------------------------------
 # Skills
@@ -1583,7 +1584,7 @@ Main Components
     background: #fff;
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-    height: 674px;
+    height: auto;
     border-radius: 20px;
 }
 .contact .info i {
